@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.men {
+  float: left;
+  width: 20%;
+}
+.menitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+
+<div style="background-color:#f1f1f1;padding:15px;">
+  <h1>web about cats</h1>
+  <h3>:)</h3>
+</div>
+<!--avi-->
+<div style="overflow:auto">
+  <div class="men">
+    <div class="menitem"><a href="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1xw:0.74975xh;center,top&resize=1200:*">Dogs</a></div>
+    <div class="menitem"><a href="https://www.rd.com/wp-content/uploads/2021/04/GettyImages-638901986-scaled.jpg">Hamster</a></div>
+  </div>
+
+  <div class="main">
+    <h2>cat </h2>
+    <p>this cat is flufffyyy</p>
+    <img src="https://www.thesprucepets.com/thmb/uQnGtOt9VQiML2oG2YzAmPErrHo=/5441x0/filters:no_upscale():strip_icc()/all-about-tabby-cats-552489-hero-a23a9118af8c477b914a0a1570d4f787.jpg" style="width:100%">
+  </div>
+
+  <div class="right">
+    <h2>cuteness</h2>
+    <p>dog better</p>
+  </div>
+</div>
+
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> No ofense pls this is just a testing web i do.i hope i dont get copy writed tq</div>
+
+</body>
+</html>
+
